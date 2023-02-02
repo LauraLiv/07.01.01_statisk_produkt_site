@@ -69,9 +69,18 @@ h1 {
   margin-bottom: 30px;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 h3,
 p {
   line-height: 25px;
+}
+
+.product p {
+  font-size: 1.5rem;
+  line-height: 45px;
 }
 
 .discount {
@@ -93,6 +102,10 @@ main li:hover {
 
 main ul {
   column-count: 2;
+}
+
+main a:hover {
+  font-style: italic;
 }
 
 .article {
