@@ -11,6 +11,15 @@ img {
   display: block;
 }
 
+body {
+  min-height: 100vh;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
 /*************** body *********************/
 
 body {
@@ -57,13 +66,13 @@ main {
 h1 {
   font-size: 4rem;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 main li {
   font-size: 1.5rem;
   list-style-type: none;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
 }
 main li:hover {
   background-color: rgb(92, 139, 208);
