@@ -81,3 +81,12 @@ main li:hover {
 main ul {
   column-count: 2;
 }
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article article {
+  margin: 20px;
+}
