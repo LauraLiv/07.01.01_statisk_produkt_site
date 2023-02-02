@@ -69,6 +69,19 @@ h1 {
   margin-bottom: 30px;
 }
 
+h3,
+p {
+  line-height: 25px;
+}
+
+.discount {
+  color: rgb(208, 25, 25);
+}
+
+img {
+  margin-bottom: 13px;
+}
+
 main li {
   font-size: 1.5rem;
   list-style-type: none;
@@ -88,5 +101,5 @@ main ul {
 }
 
 .article article {
-  margin: 20px;
+  padding: 20px;
 }
