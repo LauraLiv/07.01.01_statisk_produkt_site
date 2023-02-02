@@ -116,3 +116,13 @@ main a:hover {
 .article article {
   padding: 20px;
 }
+
+.productSoldOut {
+  opacity: 50%;
+}
+
+.soldOut {
+  position: absolute;
+  background-color: grey;
+  padding: 15px;
+}
