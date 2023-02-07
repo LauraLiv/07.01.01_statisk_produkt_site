@@ -1,7 +1,9 @@
 //kea-alt-del.dk/t7/api/products/1165
+const urlParams = new URLSearchParams(window.location.search);
+const query = urlParams.get("id");
 
-https: fetch("https://kea-alt-del.dk/t7/api/products/1165")
-  .then((Response) => Response.json())
+https: fetch("https://kea-alt-del.dk/t7/api/products" + id)
+  .then((response) => response.json())
   .then((data) => showProduct(data));
 
 function showProduct(product) {
