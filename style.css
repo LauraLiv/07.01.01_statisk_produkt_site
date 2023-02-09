@@ -126,3 +126,7 @@ main a:hover {
   background-color: grey;
   padding: 15px;
 }
+
+.hide {
+  display: none;
+}
